@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="topbar">
+            <p class="logo">Logo</p>
+            <div class="user"><img src="images/male.png" />
+                <p>Username</p>
+            </div>
+            <nav>
+                <ul>
+                    <li>Edit Profile</li>
+                    <li>Logout</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bodypart">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li onclick="window.location.href='dashboard.html'"><i class="icon-home"></i>Home</li>
+                        <li onclick="window.location.href='products.html'"><i class="icon-shopping-cart"></i>Products
+                        </li>
+                        <li onclick="window.location.href='orders.html'"> <i class="icon-truck"></i>Orders</li>
+                        <li onclick="window.location.href='index.html'"><i class="icon-signin"></i>Logout</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="maincontent">
+                <div class="mainwrapper">
+                    <div class="headerpart">
+                        <div class="left">
+                            <p>Orders</p>
+                        </div>
+                        <div class="right">
+                        </div>
+                    </div>
+                    <div class="childpart">
+                        <table>
+                            <thead>
+                                <th>ID</th>
+                                <th>OrderNo</th>
+                                <th>Customername</th>
+                                <th>Total Amount</th>
+                            </thead>
+                            <tbody>
+                                <tr onclick="window.location.href='editorder.html'">
+                                    <td class="middlealign">
+                                        1
+                                    </td>
+                                    <td class="middlealign">
+                                        #10
+                                    </td>
+                                    <td>
+                                        SR Store
+                                    </td>
+                                    <td class="middlealign">
+                                        &#8377;5
+                                    </td>
+                                </tr>
+                                <tr onclick="window.location.href='editorder.html'">
+                                    <td class="middlealign">
+                                        2
+                                    </td>
+                                    <td class="middlealign">
+                                        #14
+                                    </td>
+                                    <td>
+                                        Best Bakery
+                                    </td>
+                                    <td class="middlealign">
+                                        &#8377;10
+                                    </td>
+                                </tr>
+                                <tr onclick="window.location.href='editorder.html'">
+                                    <td class="middlealign">
+                                        3
+                                    </td>
+                                    <td class="middlealign">
+                                        #15
+                                    </td>
+                                    <td>
+                                        ABC Store
+                                    </td>
+                                    <td class="middlealign">
+                                        &#8377;85
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

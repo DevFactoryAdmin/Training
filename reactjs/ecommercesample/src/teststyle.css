@@ -1,0 +1,100 @@
+.outer{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+}
+.firstRow{
+    background-color: chocolate;
+    width: 100%;
+    height: 50px;
+}
+.secondRow{
+    background-color: brown;
+    width: 100%;
+    display: flex; 
+    height: 100vh;
+}
+.secondRow .firstColumn{
+    width: 15%;
+    background-color: darkgoldenrod;
+    height: 100vh;
+}
+.secondRow .secondColumn{
+    width: 85%;
+    background-color: darkgray;
+    height: 100vh;
+}
+.rowOne{
+    display: flex;
+    width: 100%;
+}
+.rowOne .heading{
+    background-color: blue;
+    width: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: left;
+}
+.rowOne .heading h2{
+    margin-left: 4%;
+}
+.rowOne .button{
+    width: 50%; 
+    background-color: blueviolet; 
+    display: flex; 
+    align-items: center; 
+    justify-content: right;
+}
+.rowOne .button button{  
+    margin-right: 4%;
+}
+.rowTwo{}
+.rowTwo table{
+    width: 96%;
+    border-collapse: collapse;
+    margin-left: 2%; 
+    margin-top: 10px;
+}
+.rowTwo th, td{
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+.rowThree{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.rowThree button:hover{
+    color: blue;
+}
+.tenperc{
+    width: 10%;
+}
+.twentyperc{
+    width: 20%;
+}
+
+.fourthRow{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+}
+.slider{
+    
+    background-color: coral;
+    width: 50%;
+    margin-left: 25%; 
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    overflow-x: scroll;
+}
+.slider p{
+    background-color: yellowgreen;
+    width: 50px;
+    height: 150px;
+    margin: 10px;
+}

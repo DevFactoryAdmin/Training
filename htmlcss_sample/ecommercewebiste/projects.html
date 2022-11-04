@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  
+    <script type="text/javascript">
+    
+      $(document).ready(
+        function() {
+        $('td p').slideUp();
+          $('td h2').click(
+            function(){
+             $(this).siblings('p').slideToggle();
+            }
+            );
+        }
+        );
+      
+    </script>
+
+</head>
+
+<body>
+    <div>
+        <div class="topbar">
+            <p class="logo">Logo</p>
+            <div class="user"><img src="images/male.png" />
+                <p>Username</p>
+            </div>
+            <nav>
+                <ul>
+                    <li>Edit Profile</li>
+                    <li>Logout</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bodypart">
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li onclick="window.location.href='dashboard.html'"><i class="icon-home"></i>Home</li>
+                        <li onclick="window.location.href='products.html'"><i class="icon-shopping-cart"></i>Products
+                        </li>
+                        <li onclick="window.location.href='orders.html'"> <i class="icon-truck"></i>Orders</li>
+                        <li onclick="window.location.href='index.html'"><i class="icon-signin"></i>Logout</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="maincontent">
+                <div class="mainwrapper">
+                    <div class="headerpart">
+                        <div class="left">
+                            <p>Products</p>
+                        </div>
+                        <div class="right">
+                            <button onclick="window.location.href='addproduct.html'">Add New</button>
+                        </div>
+                    </div>
+                    <div class="childpart">
+                        <table>
+                            <thead>
+                              <tr>
+                                <th>Actor</th>
+                                <th>Which Doctor</th>
+                                <th>Significant companion</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><h2>William Hartnell</h2></td>
+                                <td><h2>First</h2><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></td>
+                                <td><h2>Susan Foreman</h2><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></td>
+                              </tr>
+                              <tr>
+                                <td><h2>Patrick Troughton</h2></td>
+                                <td><h2>Second</h2><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></td>
+                                <td><h2>Jamie MacCrimmon</h2><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></td>
+                              </tr>
+                              <tr>
+                                <td><h2>Jon Pertwee</h2></td>
+                                <td><h2>Third</h2><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p></td>
+                                <td><h2>Jo Grant</h2><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+.content {
+  padding-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+.content div {
+  margin: 100px 10px;
+  background-color: aqua;
+}
+.content img {
+  width: 650px;
+  height: 650px;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+.header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: violet;
+}
+.active {
+  background-color: rgb(121, 28, 121);
+  color: white;
+}
+.header li {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
+.header  a{ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.header li:hover {
+  background-color: rgb(121, 28, 121);
+  color: white;
+}

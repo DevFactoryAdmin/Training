@@ -1,0 +1,68 @@
+body {
+  background-color: red;
+  margin: 0;
+}
+.row2{
+    padding: 100px 5%;
+}
+.row2_inner{
+    background-color: rgba(0, 0, 0, 0.516);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 3%; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.row2_inner_row1 label{
+    color: white;
+      font-size: 2rem;
+}
+.row2_inner_row2 label{
+    color: white;
+    font-size: 1.5rem;
+
+}
+.row2_inner_row4{ 
+    text-align:right; 
+    padding-top: 10px;
+}
+.row2_inner_row4 label{ 
+    color: white;
+}
+.row2_inner_row4 span{
+    color: blue;
+}
+.row2_inner_row3{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+.row2_inner_row3_col1{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 26.6%;
+}
+.row2_inner_row3_col1 select{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.row2_inner_row3_col2, .row2_inner_row3_col3{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 26.6%;
+}
+.row2_inner_row3_col2 input, .row2_inner_row3_col3 input{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.row2_inner_row3 button{
+    background-color: rgb(12, 77, 115);
+    color: white;
+    border: none; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 20%;
+}

@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
+.headrow {
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+  box-shadow: 0px 0px 10px 0px #888888;
+}
+.headrow label {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.headrow .head {
+  font-size: 1.3rem;
+}
+.logo {
+  display: flex;
+}
+.logo_content {
+  display: flex;
+  flex-direction: column;
+}
+.right_header {
+  text-align: right;
+}
+.right_header button {
+  background-color: #18719b;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.half {
+  width: 50%;
+}
+.content {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.innercontent {
+  padding: 250px 10%;
+}
+.content_inner_content {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.content_inner_content {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+}
+.content_inner_content label {
+  color: white;
+}
+.content_inner_content .bluetext {
+  color: #6287ff;
+}
+.content_inner_content .head1 {
+  font-size: 2rem;
+}
+.content_inner_content .head2 {
+  font-size: 1.6rem;
+}
+.content_inner_content .terms {
+  text-align: right;
+  margin-top: 10px;
+}
+.footer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+.footerwrapper {
+  display: flex;
+  width: 80%;
+  margin: 50px 10%;
+  justify-content: space-between;
+}
+.footerwrapper .col {
+  width: 18%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.col img {
+  height: 75px;
+  margin-bottom: 25px;
+}
+.whitecontainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.whitecontainer_col {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  background-color: white;
+}
+.leftround {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.rightround {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.whitecontainer_col label {
+  color: black;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.whitecontainer_col input {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  border: none;
+  margin-top: 5px;
+}
+.whitecontainer_col select {
+  margin-bottom: 10px;
+  border: none;
+  margin-left: 10px;
+  width: 100%;
+  margin-top: 5px;
+}
+.whitecontainer_col input:focus,
+.whitecontainer_col select:focus {
+  outline: none;
+}
+.whitecontainer_col button {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 100%;
+  border: none;
+  background-color: #18719b;
+  color: white;
+}
+.whitecontainer_col button:hover{
+  background-color: #082634;
+}
+.center {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.register_outer {
+  background-color: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 150px;
+  flex-direction: column;
+}
+.register_colouter {
+  display: flex;
+  width: 90%;
+  background-color: white;
+}
+.register_col1 {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center; 
+  background-color: #ddd;
+  flex-direction: column;
+}
+
+.register_col1 img {
+  margin-bottom: 20px;
+  width: 75px;
+}
+.register_col2 {
+  width: 48%;
+}
+.register_col2 .innerdiv {
+  width: 100%;
+  display: flex;
+}
+.register_col2 .main {
+  padding-left: 5%; 
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+.register_col2 .innerdiv label,
+.register_col2 .innerdiv input {
+  width: 50%;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+.register_col2 .innerdiv input {
+  border: 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.register_col2 .innerdiv input:focus {
+  outline: none;
+}
+.register_col2 .buttoncontainer {
+  text-align: right;
+}
+.buttoncontainer button {
+  border: none;
+  background-color: #ff7c0b;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.register_outer_head{
+  text-align: right;
+  width: 90%;
+}
+.register_outer_head label{
+  font-size: 1.5rem;
+}
+.register_outer_head span{
+  font-weight: bold;
+  font-size: 2rem;
+}

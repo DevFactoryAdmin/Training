@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+.home_row1{
+    background-color: white; 
+    display: flex;
+    flex-direction: row;
+}
+.home_row1_left{
+    background-color: white;
+    width: 45%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    flex-direction: row;
+}
+.home_row1_right{
+    background-color: white;
+    width: 45%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.home_row1_left_text{
+    display: flex;
+    background-color: white;
+    margin-left: 10px;
+    flex-direction: column;
+}
+#label:hover  + #button{
+    background-color: red;
+} 

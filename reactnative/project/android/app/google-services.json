@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "605600777701",
+    "firebase_url": "https://jinuproject-d004e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "jinuproject-d004e",
+    "storage_bucket": "jinuproject-d004e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605600777701:android:4f163da640d5452c7fdb0c",
+        "android_client_info": {
+          "package_name": "com.samplep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605600777701-nld7fj6pu9c71ulsk30ac6opkmr7odbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwUNmR-9x-YBsQ11LnB9OGNxHTaLIP-ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605600777701-nld7fj6pu9c71ulsk30ac6opkmr7odbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

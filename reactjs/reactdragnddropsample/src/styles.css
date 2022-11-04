@@ -1,0 +1,27 @@
+.contents {
+  border: 1px solid blue;
+  padding: 10px;
+  display: flex;
+}
+.container {
+  border: 1px solid red;
+  margin-left: 50px;
+  padding: 10px;
+}
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  height: 100vh;
+  width: 30%;
+  border: 1px solid red;
+}
+p {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}

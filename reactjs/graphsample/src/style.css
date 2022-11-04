@@ -1,0 +1,15 @@
+.graph{
+    width: 500px;
+    height: 500px;
+}
+.legends{
+    display: flex;
+    align-items: center;
+
+}
+.red{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: red;
+}
